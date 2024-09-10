@@ -5,7 +5,7 @@ It uses the face_recognition library along with a Tkinter-based UI to allow user
 
 Features :
 
-= Identify up to 5 persons: The system can recognize up to 5 individuals based on stored facial images.
+- Identify up to 5 persons: The system can recognize up to 5 individuals based on stored facial images.
 - Tkinter UI: A simple interface for users to upload images for recognition.
 - Pre-trained model: Utilizes pre-trained models for efficient face recognition.
 
