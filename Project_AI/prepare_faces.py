@@ -22,10 +22,8 @@ def load_known_faces(data_dir):
     
     return known_face_encodings, known_face_names
 
-# Load known faces
-data_dir = 'dataset'  # Update with your dataset path
+data_dir = 'dataset'  
 known_face_encodings, known_face_names = load_known_faces(data_dir)
 
-# Save for later use
 with open('known_faces.pkl', 'wb') as f:
     pickle.dump((known_face_encodings, known_face_names), f)
